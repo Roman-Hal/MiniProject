@@ -1,8 +1,33 @@
 .App {
   text-align: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.App-logo {
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+main {
+  background-color: aquamarine;
+  padding-top: 10px;
+  padding-bottom: 10%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  min-height: 10%;
+  border:#282c34 solid;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
