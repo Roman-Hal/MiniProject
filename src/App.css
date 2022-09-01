@@ -14,17 +14,18 @@
 
 main {
   background-color: aquamarine;
-  padding-top: 10px;
-  padding-bottom: 10%;
+  min-height: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgb(149, 17, 17);
+  background-color: lightpink;
   overflow: hidden;
-  min-height: 10%;
+  min-height: 50px;
   border:#282c34 solid;
 }
 
