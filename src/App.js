@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <div>
         <h1>Aaron's Edit</h1>
+        <h2>Another Edit</h2>
       </div>
       <div> <h2> Sobia's Editting</h2></div>
       <header className="App-header">
