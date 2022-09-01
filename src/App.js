@@ -6,7 +6,7 @@ function App() {
     
     <div className="App">
       <div>
-        <h1>Aaron's Edit</h1>
+        <h1>Aaron's Editting thing</h1>
       </div>
       <div> <h2> Sobia's Editting</h2></div>
       <> <p>Hi</p></>
