@@ -5,33 +5,33 @@ const Evaluation = () => {
   return (
     <div>
       <h2>Evaluation Page</h2>
-      <div className="imgWrapper">
-      <img alt='Evaluation' src='./Images/RenewableEvaluation.jpg' height='300px' />
+      <div className="img-wrapper">
+        <img alt='Evaluation' src='./Images/RenewableEvaluation.jpg' width="100%"/>
       </div>
-    <section className="Evaluation-content">
+    <section className="content">
       <h3>Advantages of Renewable Energy</h3>
-<ul>
-<li>1. Renewable Energy Sources Will Not Run Out</li>
-<li>2. Renewable Energy Is Reliable</li>
-<li>3. Renewable Energy Is Environmentally Friendly</li>
-<li>4. Renewable Energy Can Increase Public Health</li>
-<li>5. Renewable Technologies Create Lots of Jobs</li>
-<li>6. Renewable Technologies Require Less Maintenance Cost</li>
-<li>7. Renewable Energy Can Reduce Turmoil in Energy Prices</li>
-<li>8. Renewable Energy Can Increase Countries' Economic Independence</li>
-<li>9. Leftovers Can Be Used in Renewable Technologies</li>
-</ul>
+<ol>
+<li>Renewable Energy Sources Will Not Run Out</li>
+<li>Renewable Energy Is Reliable</li>
+<li>Renewable Energy Is Environmentally Friendly</li>
+<li>Renewable Energy Can Increase Public Health</li>
+<li>Renewable Technologies Create Lots of Jobs</li>
+<li>Renewable Technologies Require Less Maintenance Cost</li>
+<li>Renewable Energy Can Reduce Turmoil in Energy Prices</li>
+<li>Renewable Energy Can Increase Countries' Economic Independence</li>
+<li>Leftovers Can Be Used in Renewable Technologies</li>
+</ol>
 
 <h3>Disadvantages of Renewable Energy</h3>
-<ul>
-<li>1. Renewable Energy Is Not Available Round the Clock</li>
-<li>2. The Efficiency of Renewable Technologies Is Low</li>
-<li>3. The Initial Cost of Renewable Energy Is High</li>
-<li>4. Renewable Energy Sites Require A Lot of Space</li>
-<li>5. Renewable Energy Devices Need Recycling</li>
-</ul>
+<ol>
+<li>Renewable Energy Is Not Available Round the Clock</li>
+<li>The Efficiency of Renewable Technologies Is Low</li>
+<li>The Initial Cost of Renewable Energy Is High</li>
+<li>Renewable Energy Sites Require A Lot of Space</li>
+<li>Renewable Energy Devices Need Recycling</li>
+</ol>
 <h3>Why is Renewable Energy Important?</h3>
-<p>
+<p className='text-justify'>
 We're now facing unprecedented heatwaves, polluted air, and unbelievable health issues caused by fossil fuels. In Addition to this issue, fossil fuels are about to run out if we continue to burn them uncontrollably.
 Renewable energy sources are our best chance to stop the current trend and make the world a better place to live. Therefore, governments are thinking of using renewable sources of energy to generate electric power. As a result, there is increasing usage of renewable energy for generating electricity in all countries.
 For example, the share of renewable energy in global electricity generation was increased to 29% in 2020. This is a success compared with a 27% share in electricity generation in 2019.

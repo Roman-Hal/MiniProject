@@ -35,19 +35,19 @@ h3 {
 .content {
   padding: 50px 10px 0 10px;
   font-size: large;
-  
-}
-
-.Evaluation-content {
-  width: 60%;
-  /* float: none; */
   margin: 0 auto;
+  width: 50%;
 }
 
-.Evaluation-content p {
-  text-align: left;
-  margin-left: 25px;
+.content>div:not(:first-child) {
+  margin-top: 50px;
 }
+
+.text-justify {
+  text-align: justify;
+  margin-left: 10px;
+}
+
 
 .availability {
  display:grid;
@@ -69,17 +69,38 @@ h3 {
   background-size:cover;
 }
 
-.imgWrapper {
+
+.img-wrapper {
   margin-top: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-ul {
-  list-style-type: none;
+.codeYourFutureWrap {
+  margin-top: 80px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-ul li {
+.future-img-wrapper {
+  margin-top: 30px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol li {
   text-align: left;
+}
+
+.about-us-card {
+  margin: 20px;
+}
+
+.about-us-card > p {
+  margin: 0;
 }
 
 footer {
@@ -90,6 +111,10 @@ footer {
   overflow: hidden;
   min-height: 50px;
   border:#282c34 solid;
+}
+
+.source-links>span {
+  padding: 5px;
 }
 
 /* .App-logo {
