@@ -39,6 +39,10 @@ h3 {
   width: 50%;
 }
 
+.content>div:not(:first-child) {
+  margin-top: 50px;
+}
+
 .text-justify {
   text-align: justify;
   margin-left: 10px;
@@ -88,8 +92,8 @@ footer {
   border:#282c34 solid;
 }
 
-.source-links * {
-  margin: 5px;
+.source-links>span {
+  padding: 5px;
 }
 
 /* .App-logo {

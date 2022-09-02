@@ -24,8 +24,9 @@ const Footer = () => {
     futr: { content: 
       <div>
         <div className='source-links'>
-          <a href="https://earth.org/the-growth-of-renewable-energy-what-does-the-future-hold/" target="_blank" rel="noreferrer">1</a>
-          <a href="https://www.irena.org/climatechange/Renewable-Energy-Key-climate-solution" target="_blank" rel="noreferrer">2</a>
+          <h5>source links:</h5>
+          <span>Growth Projections: <a href="https://earth.org/the-growth-of-renewable-energy-what-does-the-future-hold/" target="_blank" rel="noreferrer">1</a></span>
+          <span>Growth Figures: <a href="https://www.irena.org/climatechange/Renewable-Energy-Key-climate-solution" target="_blank" rel="noreferrer">2</a></span>
           <a href="" target="_blank" rel="noreferrer"></a>
         </div>
       </div>
@@ -69,7 +70,7 @@ const Footer = () => {
         <Route match="/aboutus" element={"<Aboutus />"} />
       </Routes> */}
       {footerContent}
-      Hi everyone!!
+      {/* Hi everyone!! */}
     </footer>
   );
 }
