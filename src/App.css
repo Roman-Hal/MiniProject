@@ -39,18 +39,21 @@ h3 {
 }
 
 .Evaluation-content {
-  width: 60%;
+  width: 50%;
   /* float: none; */
   margin: 0 auto;
 }
 
 .Evaluation-content p {
   text-align: left;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .imgWrapper {
   margin-top: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -59,6 +62,10 @@ ul {
 }
 
 ul li {
+  text-align: left;
+}
+
+ol li {
   text-align: left;
 }
 

@@ -12,7 +12,7 @@ const Home = () => {
           <p>Wind, the Sun and water are renewable energy sources that can be used to create electricity.</p>
         <h3>There are different types of renewable energy:</h3>
         <div className="imgWrapper">
-        <img alt='renewable energy' height="400px" src="./Images/RenewableEnergy1.png" />
+        <img alt='renewable energy' width="100%" src="./Images/RenewableEnergy1.png" />
         </div>
       </section>
       <Footer />
