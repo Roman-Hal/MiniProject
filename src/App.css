@@ -49,6 +49,26 @@ h3 {
   margin-left: 25px;
 }
 
+.availability {
+ display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px;
+  
+  
+  
+
+ }
+.availability img{
+  margin-left: 80px;
+  max-height: 100%;
+}
+.availability p{
+ text-align: left;
+ background-image: url("https://i.pinimg.com/originals/e9/a4/f2/e9a4f2e23bee8e723a110f50e9e147b2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
 .imgWrapper {
   margin-top: 30px;
 }
