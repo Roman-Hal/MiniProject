@@ -18,6 +18,9 @@ const Aboutus = () => {
           <p>Name: Sobia</p>
           <p>Github: <a target="_blank" rel="noreferrer" href='https://github.com/sobiawaqar'>sobiawaqar</a></p>
         </div>
+        <div className="codeYourFutureWrap">
+        <img id='codeyourfut' alt='Code Your Future' src="./Images/CodeYourFutureLogo1.png" width="100%" />
+        </div>
       </section>
     </div>
   );
