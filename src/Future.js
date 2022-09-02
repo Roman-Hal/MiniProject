@@ -13,10 +13,10 @@ const Future = () => {
           <li>Hydroelectric Capacity Will Rise 9% By 2024</li>
           <li>Geothermal Capacity Will Increase 28% By 2024</li>
         </ol>
-        <div className="futureImgWrapper">
+        <div className="future-img-wrapper">
         <img width='100%' alt='renewable energy growth' src='.\Images\renewable-energy-growth.jpg' />
         </div>
-        <div className="futureImgWrapper">
+        <div className="future-img-wrapper">
         <img width='100%' alt='bioenergy growth' src='.\Images\Doubling bioenergy.jpg' />
         </div>
       </section>

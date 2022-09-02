@@ -5,8 +5,8 @@ const Evaluation = () => {
   return (
     <div>
       <h2>Evaluation Page</h2>
-      <div className="imgWrapper">
-      <img alt='Evaluation' src='./Images/RenewableEvaluation.jpg' width="100%"/>
+      <div className="img-wrapper">
+        <img alt='Evaluation' src='./Images/RenewableEvaluation.jpg' width="100%"/>
       </div>
     <section className="content">
       <h3>Advantages of Renewable Energy</h3>
@@ -31,7 +31,7 @@ const Evaluation = () => {
 <li>Renewable Energy Devices Need Recycling</li>
 </ol>
 <h3>Why is Renewable Energy Important?</h3>
-<p>
+<p className='text-justify'>
 We're now facing unprecedented heatwaves, polluted air, and unbelievable health issues caused by fossil fuels. In Addition to this issue, fossil fuels are about to run out if we continue to burn them uncontrollably.
 Renewable energy sources are our best chance to stop the current trend and make the world a better place to live. Therefore, governments are thinking of using renewable sources of energy to generate electric power. As a result, there is increasing usage of renewable energy for generating electricity in all countries.
 For example, the share of renewable energy in global electricity generation was increased to 29% in 2020. This is a success compared with a 27% share in electricity generation in 2019.
