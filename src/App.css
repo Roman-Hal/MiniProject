@@ -70,6 +70,14 @@ ol li {
   text-align: left;
 }
 
+.about-us-card {
+  margin: 20px;
+}
+
+.about-us-card > p {
+  margin: 0;
+}
+
 footer {
   position: fixed;
   bottom: 0;
