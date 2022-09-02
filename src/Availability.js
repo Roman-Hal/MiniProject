@@ -1,11 +1,13 @@
 import React from 'react'
+import Footer from './Footer';
 
-const Accessability = () => {
+const Availability = () => {
   return (
     <div>
-      Accessability Page
+      <h2>Availability Page</h2>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Accessability
+export default Availability

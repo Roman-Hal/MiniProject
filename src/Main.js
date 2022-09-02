@@ -17,7 +17,6 @@ const Main = () => {
         <Route path="/future" element={<Future />} />
         <Route path="/aboutus" element={<Aboutus />} />
       </Routes>
-      test
     </main>
   );
 }
