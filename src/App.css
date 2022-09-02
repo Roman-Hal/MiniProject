@@ -72,6 +72,10 @@ footer {
   border:#282c34 solid;
 }
 
+.source-links * {
+  margin: 5px;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
