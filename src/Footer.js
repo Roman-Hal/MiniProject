@@ -6,30 +6,50 @@ const Footer = () => {
   const path = useLocation().pathname;
 
   const data = {
-    home: { text: "This is the home page" },
-    eval: { text: "e" },
-    avail: { text: "a" },
-    futr: { text: "f" },
-    abtus: { text: "t" }
+    home: { content: 
+      <div>  
+        This is the home page
+      </div>
+    },
+    eval: { content: 
+      <div>
+        e
+      </div>
+    },
+    avail: { content: 
+      <div>
+        a
+      </div>
+    },
+    futr: { content: 
+      <div>
+        f
+      </div>
+    },
+    abtus: { content: 
+      <div>
+        t
+      </div>
+    }
   };
 
   let footerContent = "";
 
   switch (path) {
     case "/":
-      footerContent = data.home.text;
+      footerContent = data.home.content;
       break;
     case "/evaluation":
-      footerContent = data.eval.text;
+      footerContent = data.eval.content;
       break;
     case "/availability":
-      footerContent = data.avail.text;
+      footerContent = data.avail.content;
       break;
     case "/future":
-      footerContent = data.futr.text;
+      footerContent = data.futr.content;
       break;
     case "/aboutus":
-      footerContent = data.abtus.text;
+      footerContent = data.abtus.content;
       break;
     default:
       footerContent = "";
