@@ -1,17 +1,72 @@
 import React from 'react';
-// import { HashRouter, Routes, Route } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import "./App.css";
 
 const Footer = () => {
+  const path = useLocation().pathname;
+
+  const data = {
+    home: { content: 
+      <div>  
+        This is the home page
+      </div>
+    },
+    eval: { content: 
+      <div>
+        e
+      </div>
+    },
+    avail: { content: 
+      <div>
+        a
+      </div>
+    },
+    futr: { content: 
+      <div>
+          <a href="https://earth.org/the-growth-of-renewable-energy-what-does-the-future-hold/" target="_blank">1</a>
+          <a href="https://www.irena.org/climatechange/Renewable-Energy-Key-climate-solution" target="_blank">2</a>
+          <a href="" target="_blank"></a>
+      </div>
+    },
+    abtus: { content: 
+      <div>
+        t
+      </div>
+    }
+  };
+
+  let footerContent = "";
+
+  switch (path) {
+    case "/":
+      footerContent = data.home.content;
+      break;
+    case "/evaluation":
+      footerContent = data.eval.content;
+      break;
+    case "/availability":
+      footerContent = data.avail.content;
+      break;
+    case "/future":
+      footerContent = data.futr.content;
+      break;
+    case "/aboutus":
+      footerContent = data.abtus.content;
+      break;
+    default:
+      footerContent = "";
+  }
+
   return (
     <footer>
       {/* <Routes>
-        <Route exact path="/" element={"This is the home page "} />
-        <Route exact path="/evaluation" element={"<Evaluation />"} />
-        <Route exact path="/availability" element={"<Availability />"} />
-        <Route exact path="/future" element={"<Future />"} />
-        <Route exact path="/aboutus" element={"<Aboutus />"} />
+        <Route match="/" element={"This is the home page "} />
+        <Route match="/evaluation" element={"<Evaluation />"} />
+        <Route match="/availability" element={"<Availability />"} />
+        <Route match="/future" element={"<Future />"} />
+        <Route match="/aboutus" element={"<Aboutus />"} />
       </Routes> */}
+      {footerContent}
       Hi everyone!!
     </footer>
   );
