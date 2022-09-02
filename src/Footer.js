@@ -23,7 +23,9 @@ const Footer = () => {
     },
     futr: { content: 
       <div>
-        f
+          <a href="https://earth.org/the-growth-of-renewable-energy-what-does-the-future-hold/" target="_blank">1</a>
+          <a href="https://www.irena.org/climatechange/Renewable-Energy-Key-climate-solution" target="_blank">2</a>
+          <a href="" target="_blank"></a>
       </div>
     },
     abtus: { content: 
