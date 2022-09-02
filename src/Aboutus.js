@@ -7,18 +7,16 @@ const Aboutus = () => {
       <section className="content">
         <h4>Created By: </h4>
         <span className='about-us-card'>
-          Name: Aaron<br></br>
-          Github: <a target="_blank" rel="noreferrer" href='https://github.com/aaron-cyf'>Aaron-CYF</a><br></br>
-          <br></br>
+          <p>Name: Aaron</p>
+          <p>Github: <a target="_blank" rel="noreferrer" href='https://github.com/aaron-cyf'>Aaron-CYF</a></p>
         </span>
         <span className='about-us-card'>
-          Name: Roman<br></br>
-          Github: <a target="_blank" rel="noreferrer" href='https://github.com/roman-hal'>Roman-Hal</a><br></br>
-          <br></br>
+          <p>Name: Roman</p>
+          <p>Github: <a target="_blank" rel="noreferrer" href='https://github.com/roman-hal'>Roman-Hal</a></p>
         </span>
         <span className='about-us-card'>
-          Name: Sobia<br></br>
-          Github: <a target="_blank" rel="noreferrer" href='https://github.com/sobiawaqar'>sobiawaqar</a><br></br>
+          <p>Name: Sobia</p>
+          <p>Github: <a target="_blank" rel="noreferrer" href='https://github.com/sobiawaqar'>sobiawaqar</a></p>
         </span>
       </section>
     </div>
