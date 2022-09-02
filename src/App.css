@@ -35,23 +35,35 @@ h3 {
 .content {
   padding: 50px 10px 0 10px;
   font-size: large;
-  
-}
-
-.Evaluation-content {
-  width: 50%;
-  /* float: none; */
   margin: 0 auto;
+  width: 50%;
 }
 
-.Evaluation-content p {
-  text-align: left;
+.content p {
+  text-align: justify;
   margin-left: 10px;
+}
+
+.content #homeP1, .content #homeP2 {
+  text-align: center;
 }
 
 .imgWrapper {
   margin-top: 30px;
   max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.futureImgWrapper1 {
+  margin-top: 30px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.futureImgWrapper2 {
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }

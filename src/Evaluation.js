@@ -8,7 +8,7 @@ const Evaluation = () => {
       <div className="imgWrapper">
       <img alt='Evaluation' src='./Images/RenewableEvaluation.jpg' width="100%"/>
       </div>
-    <section className="Evaluation-content">
+    <section className="content">
       <h3>Advantages of Renewable Energy</h3>
 <ol>
 <li>Renewable Energy Sources Will Not Run Out</li>
