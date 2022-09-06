@@ -8,13 +8,18 @@ const Footer = () => {
   const data = {
     home: { content: 
       <div>  
-        This is the home page
+        <div className='source-links'>
+          <h5>source links:</h5>
+          <span>Picture content: <a href="https://www.sciencefacts.net/types-of-renewable-energy.html" target="_blank" rel="noreferrer">Link</a></span>
+          <a href="" target="_blank" rel="noreferrer"></a>
+        </div>
       </div>
     },
     eval: { content: 
       <div>
         <div className='source-links'>
           <h5>source links:</h5>
+          <span>Picture content: <a href="https://learnmechanical.com/renewable-and-nonrenewable-energy/" target="_blank" rel="noreferrer">Link</a></span>
           <span>Content: <a href="https://www.iea.org/reports/global-energy-review-2021/renewables" target="_blank" rel="noreferrer">Link</a></span>
           <a href="" target="_blank" rel="noreferrer"></a>
         </div>
@@ -22,7 +27,11 @@ const Footer = () => {
     },
     avail: { content: 
       <div>
-        a
+        <div className='source-links'>
+          <h5>source links:</h5>
+          <span>Content: <a href="https://www.greenmatch.co.uk/blog/2018/03/renewable-energy-in-the-united-kingdom" target="_blank" rel="noreferrer">Link</a></span>
+          <a href="" target="_blank" rel="noreferrer"></a>
+        </div>
       </div>
     },
     futr: { content: 
