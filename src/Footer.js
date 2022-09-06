@@ -13,7 +13,11 @@ const Footer = () => {
     },
     eval: { content: 
       <div>
-        e
+        <div className='source-links'>
+          <h5>source links:</h5>
+          <span>Content: <a href="https://www.iea.org/reports/global-energy-review-2021/renewables" target="_blank" rel="noreferrer">Link</a></span>
+          <a href="" target="_blank" rel="noreferrer"></a>
+        </div>
       </div>
     },
     avail: { content: 
